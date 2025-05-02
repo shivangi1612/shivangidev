@@ -35,7 +35,7 @@ function App() {
             className="min-h-screen bg-background text-foreground relative"
           >
 
-            <main className="container mx-auto px-16 pt-24 relative z-50">
+            <main className="container mx-auto px-16 pt-20 relative z-50">
             <BackgroundEffects />  
             <Navigation isDark={isDark} toggleTheme={toggleTheme} />
               {/* Hero Section */}
