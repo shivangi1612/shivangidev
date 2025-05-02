@@ -9,6 +9,7 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import { LoadingScreen } from './components/Loading';
 import BackgroundEffects from './components/BackgroundEffects';
+import { TypeAnimation } from 'react-type-animation';
 
 function App() {
   const [isDark, setIsDark] = useState(true);
@@ -47,9 +48,28 @@ function App() {
                     transition={{ duration: 0.5 }}
                     className="relative z-20"
                   >
-                    <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                      Hi, I'm <span className="text-primary">Shivangi Singh.</span>
-                    </h1>
+                <h1 className="text-4xl md:text-6xl font-bold mb-6">
+                    Hi, I'm{' '}
+                   <TypeAnimation
+                    sequence={[
+                   'Shivangi Singh.', 
+                    2000,              
+                    '',                
+                    500,
+                   'a Frontend Developer.', 
+                    2000,
+                    '', 
+                    500,
+                   'a Web Enthusiast.',
+                    2000
+                   ]}
+                    wrapper="span"
+                    speed={50}
+                    repeat={Infinity}
+                    className="text-primary"
+                   />
+                </h1>
+                   
                     <p className="text-xl md:text-2xl text-muted-foreground mb-8">
                       A passionate frontend developer crafting beautiful and functional web experiences.
                     </p>
