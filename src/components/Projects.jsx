@@ -68,6 +68,8 @@ const ProjectCard = ({ project }) => {
           <a
             href={project.demo}
             className="flex items-center gap-2 text-primary hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <ExternalLink size={16} />
             View Demo
@@ -75,6 +77,8 @@ const ProjectCard = ({ project }) => {
           <a
             href={project.source}
             className="flex items-center gap-2 text-primary hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <Github size={16} />
             Source
