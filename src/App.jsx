@@ -114,7 +114,7 @@ function App() {
                     I'm always open to new opportunities and collaborations.
                     Feel free to reach out!
                   </p>
-                  <div className="flex justify-center gap-6">
+                  <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6">
                     <a href="mailto:shivangi.singh161204@gmail.com" className="flex items-center gap-2 text-primary hover:underline">
                       <Mail size={20} />
                       Email

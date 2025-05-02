@@ -40,12 +40,12 @@ const Experience = () => {
   return (
     <div className="relative py-12">
       <motion.div
-        ref={lineRef}
-        className="absolute w-1 bg-gray-300 left-1/2 transform -translate-x-1/2 z-0"
-        variants={lineVariants}
-        initial="initial"
-        animate={isInView ? 'animate' : 'initial'}
-      />
+       ref={lineRef}
+       className="absolute left-1/2 -translate-x-1/2 w-[2px] h-full bg-gray-300 z-0"
+       variants={lineVariants}
+       initial="initial"
+       animate={isInView ? 'animate' : 'initial'}
+    />
       {experiences.map((exp, index) => (
         <motion.div
           key={index}

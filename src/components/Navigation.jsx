@@ -47,7 +47,7 @@ const Navigation = ({ isDark, toggleTheme }) => {
       <motion.nav
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        className="fixed top-4 left-1/4 -translate-x-1/2 z-50"
+        className="hidden sm:block fixed top-4 left-1/4 -translate-x-1/2 z-50"
       >
         <div className="bg-background/80 backdrop-blur-sm border rounded-full px-8 py-4 shadow-lg ">
           <div className="flex items-center gap-8">
