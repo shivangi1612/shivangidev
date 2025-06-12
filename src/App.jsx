@@ -109,7 +109,7 @@ function App() {
               </section>
 
               {/* Other sections */}
-              <section id="about" className="py-20 relative z-20">
+              <section id="about" className="py-20 relative z-20 pt-30">
                 <h2 className="text-3xl font-bold mb-8 text-center">About Me</h2>
                 <AboutSection />
               </section>
