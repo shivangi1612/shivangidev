@@ -23,7 +23,7 @@ const Navigation = ({ isDark, toggleTheme }) => {
           }
         });
       },
-      { threshold: 0.5 }
+      { threshold: [0.4, 0.5, 0.6] }
     );
 
     document.querySelectorAll('section[id]').forEach((section) => {
