@@ -4,6 +4,30 @@ import { Github, ExternalLink } from 'lucide-react';
 
 const projects = [
   {
+    title: "DigiDock",
+    description: "Decentralized Document Vault.",
+    image: "../assets/port6.png",
+    stack: ["React.js", "TailwindCSS", "Node.js", "Express.js", "MongoDB", "IPFS(Pinata)", "MetaMask", "Axios", "Render", "Vercel"],
+    demo: "https://digidock-4rkm.vercel.app/",
+    source: "https://github.com/shivangi1612/digidock"
+  },
+  {
+    title: "MediSage",
+    description: "AI-Powered Lab Report Analyzer.",
+    image: "../assets/port7.png",
+    stack: [" Python", "Streamlit", "LangChain", "Google Gemini API", "PyMuPDF", "Pandas", "Render"],
+    demo: "https://medisage-d6v0.onrender.com/",
+    source: "https://github.com/shivangi1612/medisage"
+  },
+  {
+    title: "SimpleWAF",
+    description: "Web Application Firewall Simulator.",
+    image: "../assets/port8.png",
+    stack: ["Python", "Streamlit", "Regex", "WAF Rule Engine", "Logging"],
+    demo: "https://simplewaf.streamlit.app/",
+    source: "https://github.com/shivangi1612/simplewaf"
+  },
+  {
     title: "The Soul Store",
     description: "Modern and sleek looking clothing store",
     image: "../assets/port5.png",

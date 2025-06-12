@@ -75,13 +75,15 @@ function App() {
                     </p>
             
                    <div className="flex gap-4">
-                      {/* <a
-                        href="/resume.pdf"
+                      <a
+                        href="../assets/resume.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
                       >
                         <Download size={20} />
                         Download Resume
-                      </a> */}
+                      </a>
                       <div className="flex gap-4">
                         <a href="https://github.com/shivangi1612" className="p-4 rounded-full hover:bg-accent transition-colors">
                           <FaGithub size={20} />
